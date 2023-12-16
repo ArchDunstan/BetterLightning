@@ -130,6 +130,7 @@ namespace BetterLightning.Patches
                 vector = RoundManager.Instance.GetRandomNavMeshPositionInBoxPredictable(vector, 15f, ___navHit, seed, -1);
             }
 
+            currentRandomStrikePos = vector;
             generatedWarning = true;
 
             return false;
